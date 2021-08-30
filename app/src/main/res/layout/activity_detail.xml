@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.8">
+        <ImageView
+            android:id="@+id/list_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:contentDescription="Image" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1.2"
+        android:padding="10sp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/dish_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:gravity="center_horizontal"
+                    android:background="@color/primary_color_app"
+                    android:padding="5sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Details:"
+                    android:layout_marginTop="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_color_app"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:id="@+id/dish_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price:(In Indian Ruppee)"
+                    android:layout_marginTop="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_color_app"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:id="@+id/dish_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <Button
+                    android:id="@+id/buy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:text="Buy Product"
+                    android:background="@drawable/custom_button"
+                    android:textSize="25sp"/>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

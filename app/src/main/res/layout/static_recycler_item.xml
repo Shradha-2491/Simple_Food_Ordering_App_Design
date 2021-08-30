@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/static_layout"
+    android:layout_width="200sp"
+    android:layout_marginTop="20sp"
+    android:layout_marginRight="10sp"
+    android:layout_marginLeft="10sp"
+    android:padding="10sp"
+    android:background="#AFA1A1"
+    android:elevation="2sp"
+    android:layout_height="200sp">
+    <ImageView
+        android:id="@+id/imagePopular"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="2"
+        android:src="@drawable/img10" />
+
+    <TextView
+        android:id="@+id/popularTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.6"
+        android:text="Beef Burger"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subTitlePopular"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.5"
+        android:text="Onion with cheese"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/priceTop"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="$ 18.00"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+    </LinearLayout>
+</LinearLayout>

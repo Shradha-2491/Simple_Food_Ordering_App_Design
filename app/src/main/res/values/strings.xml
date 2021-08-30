@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FoodOrderingSystem</string>
+    <string name="login_now">Login Now</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="logo">Logo</string>
+    <string name="reg_desp">Do not have Account? Create Now</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="show_password">Show Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="log_desp">Already have account? Login Now</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="image">Image</string>
+    <string name="forget_pass">Forget Password</string>
+    <string name="log_despriction">Already have account and know passsord? Login Now</string>
+    <string name="send_mail">Send Mail</string>
+    <string name="friends_corner">Friends Corner</string>
+</resources>

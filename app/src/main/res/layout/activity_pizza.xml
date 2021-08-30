@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#efeee9"
+    android:layout_height="match_parent"
+    tools:context=".PizzaActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp"
+        android:background="@color/primary_color_app"
+        android:text="Pizza"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/pizza_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#efeee9"/>
+</LinearLayout>
